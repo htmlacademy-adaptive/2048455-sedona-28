@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <base href="https://htmlacademy-adaptive.github.io/2048455-sedona-28/2/">
+</head>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo" href="index.html">
+        <img class="main-header__logo-image" src="img/logo.svg" width="185" height="96" alt="logo">
+      </a>
+        <nav class="main-nav">
+          <button class="main-nav__toggle" type="button">
+            <img src="img/icon-menu.svg.svg" width="23" height="22" alt="">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+             <li class="site-list__item site-list__item--active">
+              <a href="index.html">
+                Главная
+              </a>
+             </li>
+             <li class="site-list__item">
+              <a href="catalog.html">
+                Фото и видео
+              </a>
+             </li>
+             <li class="site-list__item">
+              <a href="form.html">
+                Форма отзыва
+              </a>
+             </li>
+             <li class="site-list__item">
+              <a href="#">
+                HTML ACADEMY
+              </a>
+             </li>
+            </ul>
+          </div>
+        </nav>
+
+    </header>
+    <main class="main-container">
+      <section class="sedona">
+        <h1 class="sedona--title">SEDONA</h1>
+        <img class="sedona-logo" src="" width="229" height="39" alt="sedona">
+      </section>
+      <section class="form__main">
+        <h2 class="form--title">ОСТАВЬТЕ СВОЙ ОТЗЫВ</h2>
+        <p class="form--description">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </section>
+      <section class="form__person">
+        <h2 class="form__person--title">ПРЕДСТАВЬТЕСЬ:</h2>
+        <fieldset class="form__person-forms">
+          <legend class="visually-hidden">ФИО</legend>
+          <ul class="form__person-list">
+            <li class="form__person-item person-name">
+              <label for="name">ИМЯ*:</label>
+              <input type="text" name="name" placeholder="Имя" id="name" value="Петр" required>
+            </li>
+            <li class="form__person-item person-surname">
+              <label for="surname">ФАМИЛИЯ*:</label>
+              <input type="text" name="surname" placeholder="Фамилия" value="Пустота" id="surname" required>
+            </li>
+            <li class="form__person-item person-patronymic">
+              <label for="patronymic">ОТЧЕСТВО:</label>
+              <input type="text" name="patronymic" placeholder="Отчество" value="Викторович" id="patronymic" required>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section class="form__contacts">
+        <h2 class="form__contacts--title">КОНТАКТНАЯ ИНФОРМАЦИЯ:</h2>
+        <fieldset class="form__contacts-forms">
+          <legend class="visually-hidden">Контактные данные</legend>
+          <ul class="form__contacts-list">
+            <li class="form__contacts-item">
+              <label for="telephone">КОНТАКТНЫЙ ТЕЛЕФОН*:</label>
+              <input type="text" name="name" placeholder="Пётр" id="telephone" required>
+              <button class="button form__contacts-button" type="submit">
+                <span class="visually-hidden">Отправить</span>
+                <img src="" class="button-image" width="18" height="18" alt="">
+              </button>
+            </li>
+            <li class="form__contacts-item">
+              <label for="e-mail">ЭЛЕКТРОННАЯ ПОЧТА*:</label>
+              <input type="text" name="surname" placeholder="Пустота" id="e-mail" required>
+              <button class="button form__contacts-button" type="submit">
+                <span class="visually-hidden">Отправить</span>
+                <img src="" class="button-image" width="16" height="12" alt="">
+              </button>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section class="form__impression">
+       <h2 class="form-impression--title">Ваше Общее впечатление:</h2>
+       <fieldset>
+        <legend class="visually-hidden">Общее впечатление</legend>
+        <ul class="form__impression--list">
+          <li class="form__impression--item">
+           <input type="radio" name="impression" id="like" value="likes" checked>
+           <label for="like">Скорее положительное</label>
+          </li>
+          <li>
+            <input type="radio" name="impression" id="dislike" value="dont-likes">
+            <label for="dislike">Скорее отрицательное</label>
+           </li>
+           <li>
+            <input type="radio" name="impression" id="dont-know" value="problem-ask">
+            <label for="dont-know">Затрудняюсь ответить</label>
+           </li>
+        </ul>
+       </fieldset>
+      </section>
+      <section class="form__attractions">
+        <h2 class="form__attractions--title">ПОСЕЩЕННЫЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ:</h2>
+        <fieldset class="form__attractions-forms">
+          <legend class="visually-hidden">Достопримечательности</legend>
+          <ul class="form__attractions--list">
+            <li class="form__attractions--item">
+              <input type="checkbox" name="devil-bridge" id="bridge">
+              <label for="bridge">Мост Дьявола</label>
+            </li>
+            <li class="form__attractions--item">
+              <input type="checkbox" name="bell-mountain" id="bell">
+              <label for="bell">Гора-Колокол</label>
+            </li>
+            <li class="form__attractions--item">
+              <input type="checkbox" name="slide-park" id="park">
+              <label for="bridge">Слайд-парк</label>
+            </li>
+            <li class="form__attractions--item">
+              <input type="checkbox" name="red-rocks" id="rocks">
+              <label for="bridge">Красные скалы</label>
+            </li>
+          </ul>
+        </fieldset>
+      </section>
+      <section class="form__emotions">
+        <div class="form__emotions--item">
+          <label for="message">ОПИШИТЕ СВОИ ЭМОЦИИ:</label>
+          <textarea name="comment" placeholder="Опишите подробно все свои восторги" id="message"></textarea>
+        </div>
+      </section>
+      <div class="form__button">
+        <button type="submit">Отправить отзыв</button>
+        <p>* — обязательные поля</p>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <a class="visit-sedona" href="#">#visitSEDONA</a>
+      <section class="footer__socials">
+        <a class="footer__socials--vk" href="#">
+          <p class="visually-hidden">vk</p>
+          <img src="img/social-vk.svg" class="footer__socials--image" width="48" height="48" alt="">
+        </a>
+        <a class="footer__socials--telegram" href="#">
+          <p class="visually-hidden">telegram</p>
+          <img src="img/social-telegram.svg" class="footer__socials--image" width="48" height="48" alt="">
+        </a>
+        <a class="footer__socials--youtube" href="#">
+          <p class="visually-hidden">youtube</p>
+          <img src="img/social-youtube.svg" class="footer__socials--image" width="48" height="48" alt="">
+        </a>
+      </section>
+      <a class="footer__academy" href="#">
+        <p class="footer__academy--description">Разработано</p>
+        <img src="img/academy-logo.svg" class="footer-academy--logo" width="28" height="35" alt="html-academy-logo">
+      </a>
+    </footer>
+  </body>
+</html>

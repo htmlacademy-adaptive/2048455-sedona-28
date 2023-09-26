@@ -1,0 +1,115 @@
+$white: #ffffff;
+$light-blue: rgb(129, 179, 210);
+$gray: #333333;
+$black: #000000;
+$light-gray: #eeeeee;
+
+@mixin light-blue-background() {
+  background-color: $light-blue;
+  color: $white;
+}
+
+@mixin light-gray-background() {
+  background-color: $light-gray;
+  color: $gray;
+}
+
+.sedona-logo-index {
+  background-image: url("../img/back-mobile.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.advantages,
+.offer {
+  text-transform: uppercase;
+}
+
+.advantages-wrapper {
+  padding: 32px 18px;
+  margin: 0 0 35px 0;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 11px 0;
+}
+
+.advantages-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: $gray;
+}
+
+.advantages__photo {
+  display: block;
+  width: 100%;
+}
+
+.advantages-item {
+  padding: 32px 18px;
+}
+
+.advantages-item--town {
+  @include light-blue-background();
+}
+
+.internal-list {
+  background-color: $white;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.internal-item-description {
+  color: $gray;
+}
+
+.advantages-item--bridge {
+  @include light-blue-background();
+}
+
+.advantages-item-gray {
+  @include light-gray-background();
+}
+
+.advantage-title-black {
+  color: $black;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.offer__button {
+  display: block;
+  text-decoration: none;
+}
+
+.map-image {
+  width: 100%;
+}
+
+.offer__title {
+  margin: 0 0 30px 0;
+}
+
+.offer__description {
+  margin: 0 0 34px 0;
+  color: $gray;
+}
+
+.offer__wrapper {
+  padding: 38px 18px 49px 18px;
+}

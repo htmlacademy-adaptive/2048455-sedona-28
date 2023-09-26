@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page__body">
   <header class="main-header">
@@ -13,41 +14,42 @@
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть меню</span>
       </button>
-
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item site-list__item--active">
-          <a href="index.html">
+      <ul class="main-nav__list site-list main-navigation__list--close">
+        <li class="site-list__item index-button">
+          <a class="nav-link" href="index.html">
             Главная
           </a>
         </li>
-        <li class="site-list__item">
-          <a href="catalog.html">
+        <li class="site-list__item catalog-button">
+          <a class="nav-link site-list__link--active" href="catalog.html">
             Фото и видео
           </a>
         </li>
-        <li class="site-list__item">
-          <a href="form.html">
+        <li class="site-list__item form-button">
+          <a class="nav-link" href="form.html">
             Форма отзыва
           </a>
         </li>
-        <li class="site-list__item">
-          <a href="#">
+        <li class="site-list__item academy-button">
+          <a class="nav-link" href="#">
             HTML Academy
           </a>
         </li>
       </ul>
     </nav>
   </header>
-  <main class="main-container">
-    <section class="sedona">
-      <h1 class="sedona-title">Sedona</h1>
-      <img class="sedona-logo" src="" width="229" height="39" alt="sedona">
+  <main class="catalog-container">
+    <section class="sedona intro intro--inner">
+      <h1 class="sedona-title visually-hidden">Sedona</h1>
+      <img class="sedona-logo intro__image intro__image--inner" src="img/sedona-catalog.svg" width="229" height="39" alt="sedona">
     </section>
     <section class="catalog-photos">
-      <h2 class="catalog-title">Фото и видео</h2>
-      <p class="catalog-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о
+      <div class="catalog-intro content content--form">
+        <h2 class="catalog-title">Фото и видео</h2>
+        <p class="catalog-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о
         политике и экономике.</p>
-      <ul class="catalog-photos-list">
+      </div>
+      <ul class="catalog-photos-list content content--catalog">
         <li class="catalog-photos-item">
           <a class="catalog-photos-link" href="#"><img class="catalog-photos-image" src="img/photo-1-mobile.jpg.jpg"
               width="280" height="280" alt=""></a>
@@ -102,31 +104,36 @@
     </section>
   </main>
   <footer class="footer">
+    <div class="footer__wrapper">
     <a class="visit-sedona" href="#">#visitSEDONA</a>
     <section class="footer__socials">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer__socials-list">
         <li class="footer__socials-item">
-          <a class="footer__socials-vk" href="#">
+          <a class="footer__socials-vk footer__socials-link" href="#">
             <span class="visually-hidden">vk</span>
+            <img src="img/social-vk.svg" width="48" height="48">
           </a>
         </li>
         <li class="footer__socials-item">
-          <a class="footer__socials-telegram" href="#">
+          <a class="footer__socials-telegram footer__socials-link" href="#">
             <span class="visually-hidden">telegram</span>
-          </a>
-        </li>
+            <img src="img/social-telegram.svg" width="48" height="48">
+            </a>
+          </li>
         <li class="footer__socials-item">
-          <a class="footer__socials-youtube" href="#">
+          <a class="footer__socials-youtube footer__socials-link" href="#">
             <span class="visually-hidden">youtube</span>
+            <img src="img/social-youtube.svg" width="48" height="48">
           </a>
         </li>
-      </ul>
-    </section>
-    <a class="footer__academy" href="#">
-      <span class="footer__academy-description">Разработано</span>
-      <img src="img/academy-logo.svg" class="footer-academy-logo" width="28" height="35" alt="html-academy-logo">
-    </a>
+        </ul>
+      </section>
+      <a class="footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
+        <span class="footer__academy-description">Разработано</span>
+        <img src="img/academy-logo.svg" class="footer-academy-logo" width="28" height="35" alt="html-academy-logo">
+      </a>
+    </div>
   </footer>
 </body>
 </html>

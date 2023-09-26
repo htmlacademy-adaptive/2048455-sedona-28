@@ -1,0 +1,443 @@
+.sedona-logo-index {
+  background-image: url("../img/back-mobile.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.advantages,
+.offer {
+  text-transform: uppercase;
+}
+
+.advantages-wrapper {
+  padding: 32px 18px;
+  margin: 0 0 35px 0;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 11px 0;
+}
+
+.advantages-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages__photo {
+  display: block;
+  width: 100%;
+}
+
+.advantages-item {
+  padding: 32px 18px;
+}
+
+.advantages-item--town {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.internal-list {
+  background-color: #ffffff;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.internal-item-description {
+  color: #333333;
+}
+
+.advantages-item--bridge {
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.advantages-item-gray {
+  background-color: #eeeeee;
+  color: #333333;
+}
+
+.advantage-title-black {
+  color: #000000;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.offer__button {
+  display: block;
+  text-decoration: none;
+}
+
+.map-image {
+  width: 100%;
+}
+
+.offer__title {
+  margin: 0 0 30px 0;
+}
+
+.offer__description {
+  margin: 0 0 34px 0;
+  color: #333333;
+}
+
+.offer__wrapper {
+  padding: 38px 18px 49px 18px;
+}
+
+.main-header {
+  position: relative;
+  margin-bottom: 56px;
+}
+
+.main-header__logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.main-nav {
+  position: relative;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.main-nav__list {
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #81b3d2;
+}
+
+.main-nav__toggle {
+  border: none;
+  background-image: url("../img/icon-menu.svg.svg");
+  width: 25px;
+  height: 24px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  display: block;
+  padding: 17px 0 12px 0;
+  color: #ffffff;
+  box-shadow: 0 1px rgba(1, 1, 1, 0.2);
+}
+
+.site-list__link--active {
+  color: #766357;
+}
+
+.main-navigation__list--close {
+  display: none;
+}
+
+.catalog-intro {
+  padding: 37px 20px;
+}
+
+.catalog-title {
+  margin: 0 0 35px 0;
+}
+
+.catalog-photos-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-photos-link {
+  text-decoration: none;
+}
+
+.catalog-photos-image {
+  padding-top: 24px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.catalog-photos-description {
+  margin: 0 0 11px 0;
+  text-transform: none;
+}
+
+.catalog-photos-title {
+  margin: 0 0 11px 0;
+}
+
+.button-like {
+  font-weight: 700;
+  color: #000000;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 24px;
+  padding: 24px 20px 56px 20px;
+}
+
+.form-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  border: none;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.form-textarea {
+  padding: 16px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  resize: none;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.feedback-modal__modal-failure {
+  padding: 45px 42px 35px 42px;
+  text-align: center;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.feedback-modal__modal-success {
+  padding: 39px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.feedback__remark {
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+}
+
+.feedback__intro {
+  padding: 86px 20px 28px 20px;
+}
+
+.feedback__title {
+  margin: 0 0 24px 0;
+}
+
+.footer {
+  padding: 0;
+}
+
+.footer__socials-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__socials-link {
+  text-decoration: none;
+  margin: 0 3px;
+}
+
+.footer__wrapper {
+  padding: 33px 18px;
+}
+
+.visit-sedona {
+  margin: 0 0 30px 0;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__academy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-academy-logo {
+  margin-left: 15px;
+}
+
+.button {
+  padding: 16px 0;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  background-color: #81b3d2;
+  border: none;
+  text-decoration: none;
+}
+
+.button--modal-failure {
+  width: 180px;
+}
+
+.content {
+  padding-left: 18px;
+  padding-right: 18px;
+  text-align: center;
+}
+
+.content--form {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.content--catalog {
+  text-align: left;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../img/back-mobile.jpg");
+  background-color: #b3d8ef;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro__image {
+  padding: 90px 0 85px 0;
+  width: 282px;
+  height: 100%;
+}
+
+.intro__image--inner {
+  padding: 52px 0 67px 0;
+  width: 229px;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans.woff") format("woff");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsansbold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsansbold.woff") format("woff");
+  font-display: swap;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.page__body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  min-width: 320px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

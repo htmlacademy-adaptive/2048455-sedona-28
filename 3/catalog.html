@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link href="css/style.css" rel="stylesheet">
+  <base href="https://htmlacademy-adaptive.github.io/2048455-sedona-28/3/">
+</head>
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo" href="index.html">
+      <img class="main-header__logo-image" src="img/logo.svg" width="185" height="96" alt="logo">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="main-nav__list site-list main-navigation__list--close">
+        <li class="site-list__item index-button">
+          <a class="nav-link" href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="site-list__item catalog-button">
+          <a class="nav-link site-list__link--active" href="catalog.html">
+            Фото и видео
+          </a>
+        </li>
+        <li class="site-list__item form-button">
+          <a class="nav-link" href="form.html">
+            Форма отзыва
+          </a>
+        </li>
+        <li class="site-list__item academy-button">
+          <a class="nav-link" href="#">
+            HTML Academy
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="catalog-container">
+    <section class="sedona intro intro--inner">
+      <h1 class="sedona-title visually-hidden">Sedona</h1>
+      <img class="sedona-logo intro__image intro__image--inner" src="img/sedona-catalog.svg" width="229" height="39" alt="sedona">
+    </section>
+    <section class="catalog-photos">
+      <div class="catalog-intro content content--form">
+        <h2 class="catalog-title">Фото и видео</h2>
+        <p class="catalog-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о
+        политике и экономике.</p>
+      </div>
+      <ul class="catalog-photos-list content content--catalog">
+        <li class="catalog-photos-item">
+          <a class="catalog-photos-link" href="#"><img class="catalog-photos-image" src="img/photo-1-mobile.jpg.jpg"
+              width="280" height="280" alt=""></a>
+          <h3 class="catalog-photos-title">Неродные просторы</h3>
+          <p class="catalog-photos-description">Автор фото: Борис</p>
+          <button class="button-like" type="button">
+            <span class="visually-hidden"> Лайков: </span>
+            <span class="catalog-photos-like-quantity">1350</span>
+          </button>
+        </li>
+        <li class="catalog-photos-item">
+          <a class="catalog-photos-link" href="#"><img class="catalog-photos-image" src="img/photo-2-mobile.jpg.jpg"
+              width="280" height="280" alt=""></a>
+          <h3 class="catalog-photos-title">Местная растительность</h3>
+          <p class="catalog-photos-description">Автор фото: Сергей</p>
+          <button class="button-like" type="button">
+            <span class="visually-hidden"> Лайков: </span>
+            <span class="catalog-photos-like-quantity">143</span>
+          </button>
+        </li>
+        <li class="catalog-photos-item">
+          <a class="catalog-photos-link" href="#"><img class="catalog-photos-image" src="img/photo-3-mobile.jpg.jpg"
+              width="280" height="280" alt=""></a>
+          <h3 class="catalog-photos-title">Дорога на север</h3>
+          <p class="catalog-photos-description">Автор фото: Петр</p>
+          <button class="button-like" type="button">
+            <span class="visually-hidden"> Лайков: </span>
+            <span class="catalog-photos-like-quantity">96</span>
+          </button>
+        </li>
+        <li class="catalog-photos-item">
+          <a class="catalog-photos-link" href="#"><img class="catalog-photos-image" src="img/photo-4-desktop.jpg"
+              width="280" height="280" alt=""></a>
+          <h3 class="catalog-photos-title">Мост дьявола</h3>
+          <p class="catalog-photos-description">Автор фото: Антон</p>
+          <button class="button-like" type="button">
+            <span class="visually-hidden"> Лайков: </span>
+            <span class="catalog-photos-like-quantity">254</span>
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section class="catalog-video">
+      <h3 class="catalog-title catalog-video-title">
+        Все еще сомневаетесь?
+      </h3>
+      <p class="catalog-description catalog-video-description">Смотрите видеопрезентацию и скорее за билетами, пока
+        они не подорожали в очередной раз!</p>
+      <a class="video-link" href="#">
+        <img class="video-image" src="img/video.jpg" width="280" height="177" alt="">
+      </a>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+    <a class="visit-sedona" href="#">#visitSEDONA</a>
+    <section class="footer__socials">
+      <h2 class="visually-hidden">Социальные сети</h2>
+      <ul class="footer__socials-list">
+        <li class="footer__socials-item">
+          <a class="footer__socials-vk footer__socials-link" href="#">
+            <span class="visually-hidden">vk</span>
+            <img src="img/social-vk.svg" width="48" height="48">
+          </a>
+        </li>
+        <li class="footer__socials-item">
+          <a class="footer__socials-telegram footer__socials-link" href="#">
+            <span class="visually-hidden">telegram</span>
+            <img src="img/social-telegram.svg" width="48" height="48">
+            </a>
+          </li>
+        <li class="footer__socials-item">
+          <a class="footer__socials-youtube footer__socials-link" href="#">
+            <span class="visually-hidden">youtube</span>
+            <img src="img/social-youtube.svg" width="48" height="48">
+          </a>
+        </li>
+        </ul>
+      </section>
+      <a class="footer__academy" href="https://htmlacademy.ru/intensive/adaptive">
+        <span class="footer__academy-description">Разработано</span>
+        <img src="img/academy-logo.svg" class="footer-academy-logo" width="28" height="35" alt="html-academy-logo">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>

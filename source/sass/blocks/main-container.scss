@@ -1,0 +1,155 @@
+$white: #ffffff;
+$light-blue: rgb(129, 179, 210);
+$black: #000000;
+$light-gray: #eeeeee;
+
+@mixin light-blue-background() {
+  background-color: $light-blue;
+  color: $white;
+}
+
+@mixin light-gray-background() {
+  background-color: $light-gray;
+  color: #333333;
+}
+
+.sedona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b3d8ef;
+  background-image: url("../../img/back-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sedona-logo-index {
+  padding: 90px 0 85px 0;
+  width: 282px;
+  height: 100%;
+}
+
+.advantages,
+.offer {
+  text-transform: uppercase;
+}
+
+.advantages-wrapper {
+  padding: 32px 18px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0 0 11px 0;
+}
+
+.advantages-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages__photo {
+  display: block;
+  width: 100%;
+}
+
+.advantages-item {
+  text-align: center;
+  max-width: 380px;
+}
+
+.advantages-item--town {
+  @include light-blue-background();
+  padding-top: 40px;
+}
+
+.advantage-triangle {
+  position: absolute;
+  margin-left: -178.5px;
+  margin-top: -40px;
+}
+
+.internal-list {
+  background-color: $white;
+  color: $black;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.internal-item-description {
+  color: #333333;
+}
+
+.advantages-item--bridge {
+  @include light-blue-background();
+  padding-top: 20px;
+}
+
+.advantages__list-gray-background {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.advantages-item-gray {
+  @include light-gray-background();
+  display: flex;
+  flex-direction: column;
+}
+
+.advantage-title-black {
+  color: $black;
+}
+
+.services__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 23px 18px 46px 65px;
+  background-color: $white;
+  text-align: left;
+  color: #333333;
+}
+
+.services__title {
+  margin: 0 0 16px 0;
+  color: $black;
+}
+
+.services__item {
+  margin-bottom: 25px;
+}
+
+.advantages-item--motel::before {
+  content: url("../../img/icon-house.svg.svg");
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -10px;
+}
+
+.advantages-item--food::before {
+  content: url("../../img/icon-burger.svg.svg");
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -10px;
+}
+
+.advantages-item--presents::before {
+  content: url("../../img/icon-gift.svg.svg");
+  position: absolute;
+  margin-left: -46px;
+  margin-top: -10px;
+}

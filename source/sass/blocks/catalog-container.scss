@@ -1,0 +1,36 @@
+.catalog-title {
+  margin: 0 0 35px 0;
+}
+
+.catalog__photos-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 25px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog__photos-link {
+  text-decoration: none;
+}
+
+.catalog__photos-image {
+  padding-top: 24px;
+  padding-bottom: 15px;
+  display: block;
+}
+
+.catalog__photos-autor {
+  margin: 0 0 11px 0;
+  text-transform: none;
+}
+
+.catalog__photos-title {
+  margin: 0 0 11px 0;
+}
+
+.catalog__photos-like-quantity {
+  font-weight: 700;
+  color: #000000;
+}

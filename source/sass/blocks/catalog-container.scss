@@ -1,12 +1,8 @@
-.catalog-intro {
-  padding: 37px 20px;
-}
-
 .catalog-title {
   margin: 0 0 35px 0;
 }
 
-.catalog-photos-list {
+.catalog__photos-list {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 25px;
@@ -15,26 +11,26 @@
   padding: 0;
 }
 
-.catalog-photos-link {
+.catalog__photos-link {
   text-decoration: none;
 }
 
-.catalog-photos-image {
+.catalog__photos-image {
   padding-top: 24px;
   padding-bottom: 15px;
   display: block;
 }
 
-.catalog-photos-description {
+.catalog__photos-autor {
   margin: 0 0 11px 0;
   text-transform: none;
 }
 
-.catalog-photos-title {
+.catalog__photos-title {
   margin: 0 0 11px 0;
 }
 
-.button-like {
+.catalog__photos-like-quantity {
   font-weight: 700;
   color: #000000;
 }

@@ -42,7 +42,12 @@
     <main class="main-container">
       <section class="sedona">
         <h1 class="sedona-title visually-hidden">Sedona</h1>
-        <img class="sedona-logo-index" src="img/welcome-sedona.svg" width="282" height="214" alt="sedona">
+        <img class="sedona-logo-index" src="img/welcome-sedona.svg" width="282" height="214"
+          alt="Добро пожаловать в Седону!">
+          <svg width="100%" height="57" viewBox="0 0 320 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-190.171 23.7L-440 0V57H-190.171H160.55L-190.171 0V23.7Z" fill="white"/>
+            <path d="M511.271 23.7V0L160.55 57H511.271H761V0L511.271 23.7Z" fill="white"/>
+            </svg>
       </section>
       <section class="advantages">
         <div class="advantages-wrapper">
@@ -51,21 +56,25 @@
         </div>
         <ul class="advantages-list">
           <li class="advantages-item advantages-item--town">
+            <svg class="advantage-triangle" width="357px" height="37" viewBox="0 0 320 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M-225 0H159V37L-225 0Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M543 0H159V37L543 0Z" fill="white"/>
+              </svg>
             <h3 class="advantage-title">Настоящий городок</h3>
             <span class="advantage-number">— №1 —</span>
             <p class="advantage-description">Седона не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="advantages__photo" src="img/photo-city.jpg" width="320" height="260" alt="town">
-            <ul class="internal-list">
-              <li class="advantages-item internal-item advantages-item--motel">
-                <h3 class="advantage-title">Жилье</h3>
+            <img class="advantages__photo" src="img/photo-city.jpg" width="320" height="260" alt="улица города Седона">
+            <ul class="services__list">
+              <li class="services__item internal-item advantages-item--motel">
+                <h3 class="services__title">Жилье</h3>
                 <p class="advantage-description internal-item-description">Рекомендуем пожить в настоящем мотеле, все
                   как в кино!</p>
               </li>
-              <li class="advantages-item internal-item advantages-item--food">
-                <h3 class="advantage-title">Еда</h3>
+              <li class="services__item internal-item advantages-item--food">
+                <h3 class="services__title">Еда</h3>
                 <p class="advantage-description">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
               </li>
-              <li class="advantages-item internal-item advantages-item--presents">
+              <li class="services__item internal-item advantages-item--presents">
                 <h3 class="advantage-title">Сувениры</h3>
                 <p class="advantage-description">Не только китайского, но и местного производства!</p>
             </ul>
@@ -74,24 +83,31 @@
             <h3 class="advantage-title">Там есть мост дьявола</h3>
             <span class="advantage-number">— №2 —</span>
             <p class="advantage-description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-            <img class="advantages__photo" src="img/photo-bridge.jpg" width="320" height="260" alt="bridge">
+            <img class="advantages__photo" src="img/photo-bridge.jpg" width="320" height="260" alt="мост дьявола">
           </li>
-          <li class="advantages-item advantages-item-gray">
-            <h3 class="advantage-title advantage-title-black">Небольшая площадь</h3>
-            <span class="advantage-number advantage-number-black">— №3 —</span>
-            <p class="advantage-description advantage-description-black">Все интересные места находятся очень близко</p>
-          </li>
-          <li class="advantages-item advantages-item-gray">
-            <h3 class="advantage-title advantage-title-black">Красивая дорога</h3>
-            <span class="advantage-number advantage-number-black">— №4 —</span>
-            <p class="advantage-description advantage-description-black">Ехать в Седону из Лас-Вегаса совсем не скучно!
-            </p>
-          </li>
-          <li class="advantages-item advantages-item-gray">
-            <h3 class="advantage-title advantage-title-black">Мало туристов</h3>
-            <span class="advantage-number advantage-number-black">— №5 —</span>
-            <p class="advantage-description advantage-description-black">Большинство едет в Гранд Каньон и толпится там
-            </p>
+          <li class="advantages-item-gray-background">
+            <ul class="advantages__list-gray-background">
+              <li class="advantages-item advantages-item-gray">
+                <h3 class="advantage-title advantage-title-black">Небольшая площадь</h3>
+                <span class="advantage-number advantage-number-black">— №3 —</span>
+                <p class="advantage-description advantage-description-black">Все интересные места находятся очень близко
+                </p>
+              </li>
+              <li class="advantages-item advantages-item-gray">
+                <h3 class="advantage-title advantage-title-black">Красивая дорога</h3>
+                <span class="advantage-number advantage-number-black">— №4 —</span>
+                <p class="advantage-description advantage-description-black">Ехать в Седону из Лас-Вегаса совсем не
+                  скучно!
+                </p>
+              </li>
+              <li class="advantages-item advantages-item-gray">
+                <h3 class="advantage-title advantage-title-black">Мало туристов</h3>
+                <span class="advantage-number advantage-number-black">— №5 —</span>
+                <p class="advantage-description advantage-description-black">Большинство едет в Гранд Каньон и толпится
+                  там
+                </p>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
@@ -103,7 +119,7 @@
       </section>
       <section class="map">
         <h3 class="visually-hidden">Карта</h3>
-        <img class="map-image" src="img/map-mobile.jpg.jpg" width="320" height="350" alt="map">
+        <img class="map-image" src="img/map-mobile.jpg.jpg" width="320" height="350" alt="Местоположение Седоны">
       </section>
     </main>
     <footer class="footer">
